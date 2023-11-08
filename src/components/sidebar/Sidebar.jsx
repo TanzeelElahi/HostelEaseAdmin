@@ -12,6 +12,7 @@ import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import HourglassFullIcon from '@mui/icons-material/HourglassFull';
 import HourglassFullTwoToneIcon from '@mui/icons-material/HourglassFullTwoTone';
+import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import StarOutlineTwoToneIcon from '@mui/icons-material/StarOutlineTwoTone';
 import ExitToAppOutlinedIcon from '@mui/icons-material/ExitToAppOutlined';
 import ChatBubbleOutlineTwoToneIcon from '@mui/icons-material/ChatBubbleOutlineTwoTone';
@@ -91,7 +92,10 @@ const Sidebar = () => {
           </li>
           </Link>
          
-         
+          <li>
+            <ExitToAppIcon className="icon" />
+            <span>Logout</span>
+          </li>
           {/* <li>
             <AccountCircleOutlinedIcon className="icon"/>
             <span>Profile</span>
