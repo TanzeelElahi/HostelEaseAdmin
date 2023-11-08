@@ -1,0 +1,41 @@
+.unoccupied-hostels-page {
+    padding: 20px;
+  }
+  
+  .hostel-card {
+    display: flex;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hostel-card img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .hostel-details {
+    flex: 1;
+  }
+  
+  .hostel-details h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .hostel-details p {
+    margin: 5px 0;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .hostel-card {
+      flex-direction: column;
+    }
+  }
+  

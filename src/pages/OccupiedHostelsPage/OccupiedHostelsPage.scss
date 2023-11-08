@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+  }
+  
+  .hostel-card {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .hostel-card img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 20px;
+  }
+  
+  .hostel-details {
+    flex: 1;
+  }
+  
